@@ -22,17 +22,15 @@ options:
   serverAddr: example.com
   serverPort: 7000
   authToken: "123456789"
-  webServerPort: 7500
-  webServerUser: admin
-  webServerPassword: "123456789"
-  customDomain: example.com
+  localIP: "127.0.0.1"
+  localPort: 8123
   proxyName: homeassistant
+  customDomain: example.com
 schema:
   serverAddr: str
   serverPort: int
   authToken: str
-  webServerPort: int
-  webServerUser: str
-  webServerPassword: str
-  customDomain: str
+  localIP: str
+  localPort: int
   proxyName: str
+  customDomain: str
