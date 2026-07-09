@@ -1,5 +1,5 @@
 name: "FRP Client"
-version: "1.0.3"
+version: "1.0.6"
 slug: "frp_client"
 description: "可以通过端口转发实现远程访问本地 Home Assistant OS"
 arch:
@@ -19,13 +19,13 @@ devices:
 map:
   - share:rw
 options:
-  serverAddr: example.com
+  serverAddr: fnos.f.17paixie.com
   serverPort: 7000
-  authToken: "123456789"
-  localIP: "127.0.0.1"
+  authToken: "5989598"
+  localIP: "192.168.123.9"
   localPort: 8123
   proxyName: homeassistant
-  customDomain: example.com
+  customDomain: ha99.f.17paixie.com
 schema:
   serverAddr: str
   serverPort: int
