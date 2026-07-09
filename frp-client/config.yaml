@@ -1,5 +1,5 @@
 name: "FRP Client"
-version: "1.0.9"
+version: "1.1.0"
 slug: "frp_client"
 description: "可以通过端口转发实现远程访问本地 Home Assistant OS"
 arch:
