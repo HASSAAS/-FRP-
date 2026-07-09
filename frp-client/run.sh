@@ -12,11 +12,10 @@ fi
 sed -i "s/your_server_addr/$(bashio::config 'serverAddr')/g" $CONFIG_PATH
 sed -i "s/7000/$(bashio::config 'serverPort')/g" $CONFIG_PATH
 sed -i "s/123456789/$(bashio::config 'authToken')/g" $CONFIG_PATH
-sed -i "s/7500/$(bashio::config 'webServerPort')/g" $CONFIG_PATH
-sed -i "s/admin/$(bashio::config 'webServerUser')/g" $CONFIG_PATH
-sed -i "s/123456789/$(bashio::config 'webServerPassword')/g" $CONFIG_PATH
-sed -i "s/your_domain/$(bashio::config 'customDomain')/g" $CONFIG_PATH
+sed -i "s/your_local_ip/$(bashio::config 'localIP')/g" $CONFIG_PATH
+sed -i "s/8123/$(bashio::config 'localPort')/g" $CONFIG_PATH
 sed -i "s/your_proxy_name/$(bashio::config 'proxyName')/g" $CONFIG_PATH
+sed -i "s/your_domain/$(bashio::config 'customDomain')/g" $CONFIG_PATH
 
 cd /usr/src
 
