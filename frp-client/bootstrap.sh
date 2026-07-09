@@ -18,7 +18,7 @@ select_machine() {
         "armhf")
             machine="arm"
             ;;
-        "armv7")a
+        "armv7")
             machine="arm"
             ;;
         "i386")
