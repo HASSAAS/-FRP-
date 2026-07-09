@@ -1,6 +1,11 @@
 #!/bin/bash
 set -e
 
+# Load bashio
+if [ -f /usr/lib/bashio/bashio.sh ]; then
+    source /usr/lib/bashio/bashio.sh
+fi
+
 CONFIG_PATH='/share/frpc.toml'
 DEFAULT_CONFIG_PATH='/frpc.toml'
 
