@@ -1,15 +1,11 @@
 serverAddr = "your_server_addr"
 serverPort = 7000
-auth.token = "123456789"
-
-webServer.addr = "0.0.0.0"
-webServer.port = 7500
-webServer.user = "admin"
-webServer.password = "123456789"
+authToken = "123456789"
 
 [[proxies]]
-name = "your_proxy_name"
 type = "http"
-localIP = "127.0.0.1"
+localIP = "your_local_ip"
 localPort = 8123
-customDomains = ["your_domain"]
+name = "your_proxy_name"
+customDomains = "your_domain"
+tls = true
