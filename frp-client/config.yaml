@@ -21,10 +21,10 @@ map:
 options:
   serverAddr: example.com
   serverPort: 7000
-  authToken: 123456789
+  authToken: "123456789"
   webServerPort: 7500
   webServerUser: admin
-  webServerPassword: 123456789
+  webServerPassword: "123456789"
   customDomain: example.com
   proxyName: homeassistant
 schema:
